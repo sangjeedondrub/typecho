@@ -8,7 +8,9 @@
             <?php $this->content(); ?>
         </div>
     </article>
-    <?php $this->need('comments.php'); ?>
+    <!-- sangjeemod -->
+    <!-- disable comments -->
+    <?php //$this->need('comments.php'); ?>
 </div><!-- end #main-->
 
 <?php $this->need('sidebar.php'); ?>
